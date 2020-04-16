@@ -22,6 +22,6 @@ namespace Meister.SDK.Identity.NetCore.Models
         public User User { get; set; }
         public long ConnectionId { get; set; }
         [ForeignKey("ConnectionId")]
-        public MeisterConnection Connection { get; set; }
+        public MeisterConnection Connection { get; set; } 
     }
 }
